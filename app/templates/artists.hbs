@@ -1,0 +1,16 @@
+<h2>All Artists</h2>
+
+<div class="col-md-2">
+
+  {{#each model.artists as |artist|}}
+    <div class="user">
+      <p>
+        {{artist.id}})
+        {{artist.artistName}}
+      </p>
+    </div>
+  {{/each}}
+</div>
+
+
+{{outlet}}
